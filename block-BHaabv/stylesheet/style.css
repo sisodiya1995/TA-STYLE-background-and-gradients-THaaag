@@ -1,0 +1,159 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom style */
+body{
+    background-color: #20222F;
+    font-size: 15px;
+    line-height: 1.5;
+	
+}
+.container{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+/*custom-style */
+.heading{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.text-color{
+    color: white;
+}
+nav a{
+    color: wheat;
+    margin-right: 10px;
+}
+.fas{
+    color:#3CBDA9;
+   font-size: 30px;
+   margin-left: 10px;
+   vertical-align: middle;
+}
+.flex-1{
+    padding-top: 20px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-1{
+    background-color:#252B43;
+    width: 250px;
+    height: 250px;
+    border-top: 4px solid #C30429;
+    border-radius: 4px;
+}
+.box-3{
+    border-top: 4px solid #EF877B;
+    background-color:#252B43;
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+}
+.box{
+    background-color:#252B43;
+    width: 250px;
+    height: 250px;
+    border-top: 4px solid #3CBDA9;
+    border-radius: 4px;
+}
+.fab{
+    color: #1690F5;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.fa-instagram{
+    color: #D79D7F;
+}
+.userid{
+    font-size: 20px;
+    color: wheat;
+    margin-left: 10px;
+}
+.fa-youtube{
+    color: #C30429;
+    
+}
+.number{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.followers{
+    color: wheat;
+}
+.up{
+    color: #1690F5;
+}
+.down{
+    color: #9c0930;
+}
+.u-color{
+    color: rgb(172, 19, 19);
+}
+.fa-caret-down{
+    color:#920b2f;
+}
+.flex-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-2{
+    width: 250px;
+    height: 150px;
+    background-color:#252B43 ;
+}
+.flex-3{
+    padding-top: 20px;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-2{
+   
+    margin-top: 30px;
+}
